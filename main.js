@@ -10,7 +10,7 @@ const moment = require('moment-timezone')
 const { wait, banner, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const { color } = require('./lib/color')
 const _welkom = JSON.parse(fs.readFileSync('./tempatdata/welcome.json'))
-number = '6283146208804@s.whatsapp.net'
+number = '919633687665@s.whatsapp.net'
 require('./herman.js')
 nocache('./herman.js', module => console.log(`${module} telah di update!`))
 
@@ -91,7 +91,7 @@ ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 }
 img = await getBuffer(ppUrl)
 teks = `Hallo @${anu_user}\nSelamat Datang Di Group: ${mdata.subject}\n\n*INFO USER*\nメ _*NAMA : @${anu_user}*_\nメ _*NOMER : @${num.split('@')[0]}*_\nSemoga Betah*_`
-sendButImage(anu.jid, teks, `© Hêrmåñ メ Bo†z ×͜×`, img,but = [{buttonId:`hallo`, 
+sendButImage(anu.jid, teks, `© ᴋʀɪᴢ sᴇʀ ×͜×`, img,but = [{buttonId:`hallo`, 
 buttonText:{displayText: 'WELCOME👋!'},type:1}], options = {contextInfo: {mentionedJid: [num, number]},thumbnail: Buffer.alloc(0)})
 } else if (anu.action == 'remove') {
 num = anu.participants[0]
@@ -102,7 +102,7 @@ ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 }
 img = await getBuffer(ppUrl)
 teks = `Bye 👋@${num.split('@')[0]}\nSelamat Tinggal Di Group:\n${mdata.subject}`
-sendButImage(anu.jid, teks, `©Hêrmåñ メ Bo†z ×͜×`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `See You Broo?👋!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
+sendButImage(anu.jid, teks, `©ᴋʀɪᴢ sᴇʀ ×͜×`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `See You Broo?👋!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
 } if (anu.action == "promote") {
         const mdata = await simple.groupMetadata(anu.jid)
         anu_user = simple.contacts[mem]
