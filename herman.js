@@ -46,12 +46,12 @@ const { kudus2 } = require('./walisongo/sunankudus2')
 
 //const² pdf & catalog>>>>>>>>>>>>>>>>>>>>>\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-const dtod = "6283146208804@s.whatsapp.net"
+const dtod = "919633687665@s.whatsapp.net"
 
-const otod = "6283146208804@s.whatsapp.net"
-const ktod = "6283146208804@s.whatsapp.net"
+const otod = "919633687665@s.whatsapp.net"
+const ktod = "919633687665@s.whatsapp.net"
 
-const htod = "6283146208804@s.whatsapp.net"
+const htod = "919633687665@s.whatsapp.net"
 
 //━━━━━━━━━━━━━━━[ DATABASE ]━━━━━━━━━━━━━━━━━//
 const _welcome = JSON.parse(fs.readFileSync('./tempatdata/welcome.json'))
@@ -162,7 +162,7 @@ module.exports = simple = async (simple, mek, _welkom) => {
 				group: 'Fitur Khusus Grup !!'
 			}
 		}
-		faketeks = '©Hêrmåñ メ Bo†z ×͜×' //Ganti Aja Nama Luh
+		faketeks = '©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁' //Ganti Aja Nama Luh
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -292,7 +292,7 @@ const fvid = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": `Hêrmåñ メ Bo†z ×͜×`,
+                 "title": `𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`,
                  "h": `${tampilUcapan} ${pushname}`,
                  'duration': '99999', 
                  'caption': `${tampilUcapan} ${pushname}`,
@@ -593,7 +593,7 @@ reply('_*Tunggu Sebentar*_. . .')
 simple.updatePresence(from, Presence.recording)		
 img =  fs.readFileSync('./poto/ngapasiKawan.mp4')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+ɪᴀᴍ  𝖐𝖗𝖎𝖟 𝖘𝖊𝖗`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -622,7 +622,7 @@ simple.updatePresence(from, Presence.recording)
 			simple.sendMessage(from, cowo, image, {caption: 'Ini Untuk »  *𝗖𝗼𝘄𝗼𝗸𝗻𝘆𝗮'})
        cewe = await getBuffer(anu.result.cewe_image)
 		    pll = `Ini Untuk » *𝗖𝗲𝘄𝗲𝗸𝗻𝘆𝗮*`
-   sendButImage(from, pll, `Hêrmåñ メ Bo†z ×͜× © 2021`, cewe, [                      
+   sendButImage(from, pll, `𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 © 2021`, cewe, [                      
           {
             buttonId: `${prefix}ppcouple`,
             buttonText: {
@@ -685,7 +685,7 @@ break
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
-               const yy = {title: 'Hêrmåñ メ Bo†z ×͜×',
+               const yy = {title: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁',
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
@@ -754,7 +754,7 @@ break
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
-               const yy = {title: 'Hêrmåñ メ Bo†z ×͜× ' + nombor++,
+               const yy = {title: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 ' + nombor++,
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
@@ -803,7 +803,7 @@ simple.updatePresence(from, Presence.recording)
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
-                        description: `©Hêrmåñ メ Bo†z ×͜×`,
+                        description: `©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`,
                         rowId: `${prefix}${x}`
                       }
                     ]
@@ -882,7 +882,7 @@ Jam : ${time}
 HARI : ${week}, ${date}
 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦`
 oy =`
-*_Jasa Sewa Bot By : ©Hêrmåñ メ Bo†z ×͜×
+*_Jasa Sewa Bot By : ©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁
 *>>>>>>>> *LIST HARGA* >>>>>>>>*
 [🔥] . _Fitur Bot Banyak And Ada Catalog Menu_
 
@@ -891,7 +891,7 @@ oy =`
 🐣. _*Manent : Rp. 10.000 [ Promo ]*_
 
  _Jika Anda Minat Bisa Chat Nomer Ini_
-_*🪀 Wa.me/6283146208804*_
+_*🪀 Wa.me/919633687665*_
 _Note Jangan Spam_
 _*Maaf Jika Slow Respon Karena Sesuai Antrian*_`
 but = [
@@ -1369,7 +1369,7 @@ case 'original':
 simple.updatePresence(from, Presence.recording)
 img =  fs.readFileSync('./poto/herman.jpg')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+ɪᴀᴍ  𝖐𝖗𝖎𝖟 𝖘𝖊𝖗`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -1933,7 +1933,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Hêrmåñ メ Bo†z ×͜×`)
+costum(buffer, sticker, Verived, `𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -1999,7 +1999,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `©_Hêrmåñ メ Bo†z ×͜×_ *V : 2.889H*`)
+costum(buffer, image, Verived, `©_𝙺𝚁𝙸𝚉 𝚂𝙴𝚁_ *V : 2.889H*`)
 fs.unlinkSync(ran)
 })
 break
@@ -2028,7 +2028,7 @@ ran = getRandom('.webp')
 exec(`ffmpeg -i ${anum} ${ran}`, (err) => {
 fs.unlinkSync(anum)
 buffer = fs.readFileSync(ran)
-simple.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... Hêrmåñ メ Bo†z ×͜×' })
+simple.sendMessage(from, buffer, video, { quoted: ftrol, caption: 'Done... 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁' })
 fs.unlinkSync(ran)
 })
 break
@@ -2847,7 +2847,7 @@ let inilist = []
 for (let i of ownerNumber) {
 let vname = simple.contacts[i] != undefined ? simple.contacts[i].vname || simple.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'Hêrmåñ メ Bo†z ×͜×',
+"displayName": '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
@@ -2898,7 +2898,7 @@ var options = {
 text: teks1,
 contextInfo: { mentionedJid: [nomor] },
 }
-simple.sendMessage(`6283146208804@s.whatsapp.net`, options, text, { quoted: ftrol })
+simple.sendMessage(`919633687665@s.whatsapp.net`, options, text, { quoted: ftrol })
 reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaikan')
 break
 
@@ -2997,43 +2997,43 @@ case 'cecan':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/cecan?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, image, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, image, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'hijaber':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/hijaber?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, image, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, image, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'santuy':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/santuy?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'ukhti':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/ukty?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'bocil':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/bocil?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'ghea':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/ghea?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 case 'rika':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/rikagusriani?apikey=${zerkey}`)
 reply(mess.wait)
 buffer = await getBuffer(ini.result.url)
-simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: 'Hêrmåñ メ Bo†z ×͜×'})
+simple.sendMessage(from, buffer, video, {quoted: ftrol, caption: '𝙺𝚁𝙸𝚉 𝚂𝙴𝚁'})
 break
 
 //━━━━━━━━━━━━━━━[ FITUR GABUT ]━━━━━━━━━━━━━━━━━//
@@ -3542,14 +3542,14 @@ but = [
           { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU' }, type: 1 },
           { buttonId: `${prefix}rulesbot`, buttonText: { displayText: 'RULES' }, type: 1 }
         ]
-        sendButton(from, teks, '©Created : Hêrmåñ メ Bo†z ×͜×', but, mek)
+        sendButton(from, teks, '©Created : 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁', but, mek)
 break
  case 'pornhub': case 'glitch':  case 'avenger': case 'space': case 'ninjalogo': case 'marvelstudio': case 'lionlogo':case 'wolflogo':case 'steel3d':case 'wallgravity':
  if (args.length == 0) return reply(`Contoh: ${prefix + command} awok awok`)
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=Z-BOT8&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©Hêrmåñ メ Bo†z ×͜× _IMAGE_`, quoted : ftrol})
+                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁 _IMAGE_`, quoted : ftrol})
                     })
                     break
                     
@@ -3582,7 +3582,7 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} kamu mah`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${humankey}&text=${ini_txt}`).then((gambar) => {
-                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©Hêrmåñ メ Bo†z ×͜×`, quoted : ftrol})
+                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`, quoted : ftrol})
                     })
                     break
                 case 'arcade8bit':
@@ -3594,7 +3594,7 @@ break
                     txt1 = args[0]
                     txt2 = args[1]
                     getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${humankey}&text1=${txt1}&text2=${txt2}`).then((gambar) => {
-                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Hêrmåñ メ Bo†z ×͜×`, quoted : ftrol})
+                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`, quoted : ftrol})
                     })
                     break
 
@@ -3634,7 +3634,7 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} ikal image`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${humankey}&text=${ini_txt}`).then((gambar) => {
-                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©Hêrmåñ メ Bo†z ×͜×`, quoted : ftrol}) 
+                        simple.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `©𝙺𝚁𝙸𝚉 𝚂𝙴𝚁`, quoted : ftrol}) 
                     })
                     break
               
@@ -3682,13 +3682,13 @@ await simple.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/gif
 break			
 
 case 'pdf':
-        ptod = "6283146208804@s.whatsapp.net"
+        ptod = "919633687665@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await simple.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 tescok = `${menunya(prefix)}`
-Sendbutdocument(from, tescok, "© Hêrmåñ メ Bo†z ×͜×*", fs.readFileSync('./poto/menu.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./poto/image/thumbnaildokumen.jpg'), filename:`Herman Chanel.pdf`, pageCount: 9999999 },[{ buttonId: `${prefix}menu`, buttonText: { displayText: 'OWNER🌺' }, type: 1 }], {quoted:fvid, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} - ${pushname}\nDownload Script`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/x-O0WHkv3uc`}}})
+Sendbutdocument(from, tescok, "© 𝙺𝚁𝙸𝚉 𝚂𝙴𝚁*", fs.readFileSync('./poto/menu.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./poto/image/thumbnaildokumen.jpg'), filename:`Herman Chanel.pdf`, pageCount: 9999999 },[{ buttonId: `${prefix}menu`, buttonText: { displayText: 'OWNER🌺' }, type: 1 }], {quoted:fvid, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} - ${pushname}\nDownload Script`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/x-O0WHkv3uc`}}})
 break
 
 case 'allmenu':
